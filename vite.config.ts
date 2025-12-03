@@ -15,6 +15,7 @@ export default defineConfig({
       files: ".",
     }),
   ],
+  base: '/cocktail_night',
   server: {
     proxy: {
       '/api': {

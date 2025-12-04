@@ -1,0 +1,17 @@
+import type { ReactNode } from "react";
+
+export const Section = ({ name, children }: { name: string; children: ReactNode }) => {
+  return (
+    <div className="flex w-full pt-16 flex-col gap-8" id="section">
+      <div className="flex flex-col gap-1 w-full">
+        <span className=" w-full text-5xl lg:text-7xl pb-16 font-extrabold font-[Dancing_Script]">{name}</span>
+
+        <span className="w-full border-b-4 border-b-black" />
+
+        <span className="w-full border-b-4 border-b-black" />
+        <span className="w-full border-b-4 border-b-black" />
+      </div>
+      {children}
+    </div>
+  );
+};

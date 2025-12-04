@@ -5,10 +5,10 @@ function App() {
   return (
     <div className="flex flex-col gap-8 p-6">
       <div className="flex gap-1 flex-col justify-center align-middle w-full text-9xl font-[Monoton]">
-        <span className="w-full flex justify-center text-center">JM</span>
-        <span className="w-full border-b-4 border-b-black" />
-        <span className="w-full border-b-4 border-b-black" />
-        <span className="w-full border-b-4 border-b-black" />
+        <span className="w-full flex justify-center text-cyan-700 text-center">JM</span>
+        <span className="w-full border-b-4 border-b-cyan-800" />
+        <span className="w-full border-b-4 border-b-cyan-800" />
+        <span className="w-full border-b-4 border-b-cyan-800" />
       </div>
 
       <div className="flex flex-col gap-8 items-center">
